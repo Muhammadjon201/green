@@ -13,17 +13,31 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        initViews()
     }
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func initViews(){
+        navBarSettings()
     }
-    */
+    
+    func navBarSettings(){
+        let menu = UIImage(named: "vv")
+        let cart = UIImage(named: "vv2")
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: menu, style: .plain, target: self, action: #selector(leftTapped))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: cart, style: .plain, target: self, action: #selector(rightTapped))
+        
+        self.title = "Search"
+    }
+    
+    @objc func leftTapped(){
+//        let vc = DetailViewController(nibName: "DetailViewController", bundle: nil)
+//        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
+    @objc func rightTapped(){
+        
+    }
 
 }

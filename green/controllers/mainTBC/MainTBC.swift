@@ -17,7 +17,7 @@ class MainTBC: UITabBarController {
     }
     
     func tabBarSettings(){
-        let vc1 = UINavigationController(rootViewController: HomeViewController(nibName: "HomeViewController", bundle: nil))
+        let vc1 = SearchViewController(nibName: "SearchViewController", bundle: nil)
         vc1.tabBarItem.image = UIImage(named: "home")
         
         let vc2 = LikeViewController(nibName: "LikeViewController", bundle: nil)

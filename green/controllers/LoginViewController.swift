@@ -25,6 +25,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
         myCollection.dataSource = self
         myCollection.register(UINib(nibName: "SignUpCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "SignUpCollectionViewCell")
         self.myCollection.contentInset = UIEdgeInsets(top: 0, left: 15, bottom: 10, right: 15)
+        
     }
     
     // Showing data..
@@ -50,13 +51,14 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
+    
     // Button action..
     @IBAction func btn(_ sender: Any) {
-        callSearchViewController()
+        callMainTBC()
     }
     
-    func callSearchViewController(){
-        let vc = SearchViewController(nibName: "SearchViewController", bundle: nil)
+    func callMainTBC(){
+        let vc = MainTBC(nibName: "MainTBC", bundle: nil)
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
