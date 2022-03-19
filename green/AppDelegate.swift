@@ -17,12 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         IQKeyboardManager.shared.enable = true
         
+        IQKeyboardManager.shared.disabledToolbarClasses = [SearchViewController.self] //of type UIViewController
+        
         window = UIWindow()
         let vc = HomeViewController(nibName: "HomeViewController", bundle: nil)
         let nc = UINavigationController(rootViewController: vc)
         window?.rootViewController = nc
         window?.makeKeyAndVisible()
         
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().barTintColor = UIColor.white
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().tintColor = UIColor.black
         return true
     }
 

@@ -26,6 +26,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
         myCollection.register(UINib(nibName: "SignUpCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "SignUpCollectionViewCell")
         self.myCollection.contentInset = UIEdgeInsets(top: 0, left: 15, bottom: 10, right: 15)
         
+        
+        
     }
     
     // Showing data..
@@ -59,7 +61,11 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
     
     func callMainTBC(){
         let vc = MainTBC(nibName: "MainTBC", bundle: nil)
-        self.navigationController?.pushViewController(vc, animated: true)
+        vc.modalPresentationStyle = .fullScreen
+        vc.modalTransitionStyle = .coverVertical
+        self.present(vc, animated:true, completion:nil)
+        
+        
     }
     
 

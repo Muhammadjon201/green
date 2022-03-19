@@ -29,6 +29,10 @@
 		D4E7948727DDBF6400BE26F5 /* LikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E7948527DDBF6400BE26F5 /* LikeViewController.xib */; };
 		D4E7948B27DDBF7600BE26F5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7948927DDBF7600BE26F5 /* ProfileViewController.swift */; };
 		D4E7948C27DDBF7600BE26F5 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E7948A27DDBF7600BE26F5 /* ProfileViewController.xib */; };
+		D4E7949027E302E600BE26F5 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7948E27E302E600BE26F5 /* SearchCollectionViewCell.swift */; };
+		D4E7949127E302E600BE26F5 /* SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E7948F27E302E600BE26F5 /* SearchCollectionViewCell.xib */; };
+		D4E7949527E338DC00BE26F5 /* SecondSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7949327E338DC00BE26F5 /* SecondSearchCollectionViewCell.swift */; };
+		D4E7949627E338DC00BE26F5 /* SecondSearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E7949427E338DC00BE26F5 /* SecondSearchCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,10 @@
 		D4E7948527DDBF6400BE26F5 /* LikeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeViewController.xib; sourceTree = "<group>"; };
 		D4E7948927DDBF7600BE26F5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D4E7948A27DDBF7600BE26F5 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		D4E7948E27E302E600BE26F5 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4E7948F27E302E600BE26F5 /* SearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		D4E7949327E338DC00BE26F5 /* SecondSearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4E7949427E338DC00BE26F5 /* SecondSearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondSearchCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +180,10 @@
 			children = (
 				D4E7946A27DDAD0300BE26F5 /* SignUpCollectionViewCell.swift */,
 				D4E7946B27DDAD0300BE26F5 /* SignUpCollectionViewCell.xib */,
+				D4E7948E27E302E600BE26F5 /* SearchCollectionViewCell.swift */,
+				D4E7948F27E302E600BE26F5 /* SearchCollectionViewCell.xib */,
+				D4E7949327E338DC00BE26F5 /* SecondSearchCollectionViewCell.swift */,
+				D4E7949427E338DC00BE26F5 /* SecondSearchCollectionViewCell.xib */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -238,10 +250,12 @@
 				D4A5BD8827DD5CDC00DC4AE8 /* LoginViewController.xib in Resources */,
 				D4E7948727DDBF6400BE26F5 /* LikeViewController.xib in Resources */,
 				D4E7946D27DDAD0300BE26F5 /* SignUpCollectionViewCell.xib in Resources */,
+				D4E7949127E302E600BE26F5 /* SearchCollectionViewCell.xib in Resources */,
 				D4A5BD6627DC8F9200DC4AE8 /* LaunchScreen.storyboard in Resources */,
 				D4E7948227DDBF4F00BE26F5 /* DetailViewController.xib in Resources */,
 				D4A5BD8327DC934100DC4AE8 /* Assets.xcassets in Resources */,
 				D4E7947527DDBCE900BE26F5 /* SignUpViewController.xib in Resources */,
+				D4E7949627E338DC00BE26F5 /* SecondSearchCollectionViewCell.xib in Resources */,
 				D4A5BD7727DC907200DC4AE8 /* HomeViewController.xib in Resources */,
 				D4E7948C27DDBF7600BE26F5 /* ProfileViewController.xib in Resources */,
 				D4E7947D27DDBF3A00BE26F5 /* SearchViewController.xib in Resources */,
@@ -299,6 +313,7 @@
 			files = (
 				D4E7948127DDBF4F00BE26F5 /* DetailViewController.swift in Sources */,
 				D4E7947427DDBCE900BE26F5 /* SignUpViewController.swift in Sources */,
+				D4E7949027E302E600BE26F5 /* SearchCollectionViewCell.swift in Sources */,
 				D4E7947827DDBE8100BE26F5 /* MainTBC.swift in Sources */,
 				D4E7947C27DDBF3A00BE26F5 /* SearchViewController.swift in Sources */,
 				D4A5BD8727DD5CDC00DC4AE8 /* LoginViewController.swift in Sources */,
@@ -306,6 +321,7 @@
 				D4E7948B27DDBF7600BE26F5 /* ProfileViewController.swift in Sources */,
 				D4A5BD5A27DC8F8500DC4AE8 /* AppDelegate.swift in Sources */,
 				D4E7946C27DDAD0300BE26F5 /* SignUpCollectionViewCell.swift in Sources */,
+				D4E7949527E338DC00BE26F5 /* SecondSearchCollectionViewCell.swift in Sources */,
 				D4A5BD7627DC907200DC4AE8 /* HomeViewController.swift in Sources */,
 				D4E7948627DDBF6400BE26F5 /* LikeViewController.swift in Sources */,
 			);

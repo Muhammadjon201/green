@@ -11,3 +11,13 @@ struct Data {
     var name: String
     var isSelect: Bool
 }
+
+struct Item {
+    var name: String
+    var isSelect: Bool
+}
+
+struct Food {
+    var title: String
+    var name: String
+}
