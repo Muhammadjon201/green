@@ -125,7 +125,7 @@ extension SearchViewController: UICollectionViewDelegate, UICollectionViewDataSo
     }
     
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-        let vc = DetailViewController(nibName: "DetailViewController", bundle: nil)
+        let vc = DetailViewController(nibName: "DescriptionViewController", bundle: nil)
         vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true, completion: nil)
         

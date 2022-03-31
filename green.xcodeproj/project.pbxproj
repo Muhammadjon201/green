@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		82C0B1BD097716BB1A5C2D45 /* Pods_green.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D96E3B651F3D00DA8857B99 /* Pods_green.framework */; };
+		D4343D2827F5A464002619D2 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4343D2627F5A464002619D2 /* DescriptionViewController.swift */; };
+		D4343D2927F5A464002619D2 /* DescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4343D2727F5A464002619D2 /* DescriptionViewController.xib */; };
 		D4A5BD5A27DC8F8500DC4AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5BD5927DC8F8500DC4AE8 /* AppDelegate.swift */; };
 		D4A5BD6627DC8F9200DC4AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A5BD6427DC8F9200DC4AE8 /* LaunchScreen.storyboard */; };
 		D4A5BD7627DC907200DC4AE8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5BD7427DC907100DC4AE8 /* HomeViewController.swift */; };
@@ -39,6 +41,8 @@
 		8D96E3B651F3D00DA8857B99 /* Pods_green.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_green.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A470024AEBDA990D0AB1D17D /* Pods-green.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-green.debug.xcconfig"; path = "Target Support Files/Pods-green/Pods-green.debug.xcconfig"; sourceTree = "<group>"; };
 		B8DE3218DA9BFD7BAE6ADD70 /* Pods-green.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-green.release.xcconfig"; path = "Target Support Files/Pods-green/Pods-green.release.xcconfig"; sourceTree = "<group>"; };
+		D4343D2627F5A464002619D2 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		D4343D2727F5A464002619D2 /* DescriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionViewController.xib; sourceTree = "<group>"; };
 		D4A5BD5627DC8F8500DC4AE8 /* green.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = green.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A5BD5927DC8F8500DC4AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4A5BD6527DC8F9200DC4AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 				D4A5BD8627DD5CDB00DC4AE8 /* LoginViewController.xib */,
 				D4E7947227DDBCE900BE26F5 /* SignUpViewController.swift */,
 				D4E7947327DDBCE900BE26F5 /* SignUpViewController.xib */,
+				D4343D2627F5A464002619D2 /* DescriptionViewController.swift */,
+				D4343D2727F5A464002619D2 /* DescriptionViewController.xib */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -255,6 +261,7 @@
 				D4E7948227DDBF4F00BE26F5 /* DetailViewController.xib in Resources */,
 				D4A5BD8327DC934100DC4AE8 /* Assets.xcassets in Resources */,
 				D4E7947527DDBCE900BE26F5 /* SignUpViewController.xib in Resources */,
+				D4343D2927F5A464002619D2 /* DescriptionViewController.xib in Resources */,
 				D4E7949627E338DC00BE26F5 /* SecondSearchCollectionViewCell.xib in Resources */,
 				D4A5BD7727DC907200DC4AE8 /* HomeViewController.xib in Resources */,
 				D4E7948C27DDBF7600BE26F5 /* ProfileViewController.xib in Resources */,
@@ -312,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E7948127DDBF4F00BE26F5 /* DetailViewController.swift in Sources */,
+				D4343D2827F5A464002619D2 /* DescriptionViewController.swift in Sources */,
 				D4E7947427DDBCE900BE26F5 /* SignUpViewController.swift in Sources */,
 				D4E7949027E302E600BE26F5 /* SearchCollectionViewCell.swift in Sources */,
 				D4E7947827DDBE8100BE26F5 /* MainTBC.swift in Sources */,
